@@ -2,7 +2,7 @@
 
 A luxury hotel and resort web application built with React and Vite. Luxoria presents a full-featured digital experience for a five-star beachfront property — including room browsing, online booking, fine dining, amenities, gallery, tours, guest reviews, and a smart concierge chat widget. The UI is designed in Persian (RTL) with an elegant, premium aesthetic.
 
-**Live demo:** [https://code1sprint.github.io/Luxoria-Hotel/](View)
+**Live demo:** [View/](https://code1sprint.github.io/Luxoria-Hotel/)
 
 ---
 
