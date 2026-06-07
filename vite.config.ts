@@ -3,8 +3,13 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
+const GITHUB_PAGES_BASE = '/Luxoria-Hotel/';
+
 export default defineConfig(() => {
+  const isGitHubPages = process.env.GITHUB_PAGES === 'true';
+
   return {
+    base: isGitHubPages ? GITHUB_PAGES_BASE : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
